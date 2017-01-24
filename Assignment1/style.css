@@ -1,0 +1,37 @@
+/*Erik Bridgeford - January 21, 2017 - Assignment1*/
+
+table, th, td{
+    border-style:solid;
+    border-style:solid;
+}
+
+#MultiplicationTable{
+	table-layout: fixed;
+	width: 50%;
+}
+
+td.column1 {
+	font-style: italic;
+	text-align: center;
+}
+
+div.outer-content{
+	background-color: pink;
+	position: relative;
+	height: 40px;
+	width:75%;
+	margin-top: 20px;
+}
+
+div.inner-content { 
+	/* I utilized centering tips/tricks site posted in piazza discussion*/
+	background-color: blue;
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
